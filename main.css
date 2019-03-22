@@ -1,5 +1,22 @@
 #docbody {
-    background-color: Grey;
+    background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    color: grey;
+}
+
+fieldset {
+    border-color: grey;
+    border-radius: 25px;
+}
+
+input {
+    border-color: grey;
+    border-radius: 5px;
+}
+
+button {
+    width: 70px;
+    border-color: grey;
+    border-radius: 5px;
 }

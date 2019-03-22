@@ -51,4 +51,5 @@ formEl.addEventListener('submit', function(){
     event.preventDefault()
     let classroom = new Classroom(nameInput.value, parseInt(minInput.value), 12, 9)
     classrooms.push(classroom)
+    classroom.renderNewClassroom()
 })
